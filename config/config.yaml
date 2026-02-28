@@ -1,0 +1,15 @@
+pipeline:
+  batch_interval_minutes: 5
+  log_source: application_logs
+
+thresholds:
+  latency_ms: 900
+  error_rate_percent: 8
+
+storage:
+  type: aws_s3
+  bucket: monitoring-sample-bucket
+
+alerts:
+  enabled: true
+  email_notification: false
