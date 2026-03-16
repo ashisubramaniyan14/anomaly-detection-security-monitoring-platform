@@ -1,4 +1,4 @@
-# Anomaly Detection & Security Monitoring Platform
+# Distributed ML Pipeline Infrastructure & Model Training System
 
 Cloud-based anomaly detection and system monitoring pipeline concept using AWS S3, Python data processing, ELK Stack dashboards, and automated alerting.
 
